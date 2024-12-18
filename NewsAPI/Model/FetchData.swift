@@ -24,7 +24,7 @@ struct FetchData{
 }
 
 struct Response: Codable{
-    var status: String = ""
+    var status: String = "AHHHHHH"
     var totalResults: Int = 0
     var articles: [Article] = []
 }
